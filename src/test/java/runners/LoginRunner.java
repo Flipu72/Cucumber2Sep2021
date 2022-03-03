@@ -9,9 +9,9 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"classpath:features"},
+		features = {"src\\test\\java\\features\\TechfiosBankAndCash.feature"},
 		glue="steps",
-		tags = "@Scenario1",
+		tags = "@Smoke",
 		monochrome = true,
 //		dryRun = false,
 		plugin = {

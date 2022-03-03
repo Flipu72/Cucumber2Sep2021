@@ -1,4 +1,4 @@
-package pages;
+package pages;/*
 import java.sql.DriverManager;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -60,4 +60,4 @@ rs = statement.executeQuery(query);
     
 }
     
-}
+}*/

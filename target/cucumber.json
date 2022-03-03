@@ -3,41 +3,53 @@
     "line": 2,
     "elements": [
       {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
+        "before": [
           {
             "result": {
-              "duration": 902900500,
+              "duration": 11987283200,
               "status": "passed"
             },
-            "line": 5,
-            "name": "User is on techfios login page",
             "match": {
-              "location": "TechfiosStepDefinition.user_is_on_techfios_login_page()"
-            },
-            "keyword": "Given "
+              "location": "TechfiosStepDefinition.beforeRun()"
+            }
           }
-        ]
-      },
-      {
-        "line": 8,
-        "name": "Login with valid credentials",
+        ],
+        "line": 5,
+        "name": "",
         "description": "",
-        "id": "techfios-login-functionality-validation;login-with-valid-credentials",
+        "id": "techfios-techfios-bank-\u0026-cash-functionality-validality;",
+        "after": [
+          {
+            "result": {
+              "duration": 4363415600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechfiosStepDefinition.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 12244100,
-              "error_message": "java.lang.NullPointerException\r\n\tat steps.TechfiosStepDefinition.user_enters_username_as(TechfiosStepDefinition.java:32)\r\n\tat ✽.When User enters username as \"demo@techfios.com\"(features/TechfiosLogin.feature:9)\r\n",
-              "status": "failed"
+              "duration": 378062500,
+              "status": "passed"
             },
-            "line": 9,
+            "line": 6,
+            "name": "User is on techfios login page",
+            "match": {
+              "location": "TechfiosStepDefinition.user_is_on_techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5844864800,
+              "status": "passed"
+            },
+            "line": 7,
             "name": "User enters username as \"demo@techfios.com\"",
             "match": {
               "arguments": [
@@ -52,9 +64,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5414348200,
+              "status": "passed"
             },
-            "line": 10,
+            "line": 8,
             "name": "User enters password as \"abc123\"",
             "match": {
               "arguments": [
@@ -69,9 +82,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3364156000,
+              "status": "passed"
             },
-            "line": 11,
+            "line": 9,
             "name": "User clicks on signin button",
             "match": {
               "location": "TechfiosStepDefinition.user_clicks_on_signin_button()"
@@ -80,37 +94,228 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1008133700,
+              "status": "passed"
             },
-            "line": 12,
+            "line": 10,
             "name": "User should land on dashboard page",
             "match": {
               "location": "TechfiosStepDefinition.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 904969100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on BankCash button",
+            "match": {
+              "location": "TechfiosStepDefinition.user_clicks_on_bankcash_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1588773300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on NewAccount button",
+            "match": {
+              "location": "TechfiosStepDefinition.user_clicks_on_newaccount_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 643657300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should land on Accounts page",
+            "match": {
+              "location": "TechfiosStepDefinition.user_should_land_on_Accounts_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 350238200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters Account Title as\"Business\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Business",
+                  "offset": 29
+                }
+              ],
+              "location": "TechfiosStepDefinition.user_enters_account_title_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 333210200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters Description as \"Checking\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Checking",
+                  "offset": 28
+                }
+              ],
+              "location": "TechfiosStepDefinition.user_enters_description_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 327607400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters Initial Balance as\"25000.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25000.00",
+                  "offset": 31
+                }
+              ],
+              "location": "TechfiosStepDefinition.user_enters_initial_balance_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 311241200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters Account Number as\"000111222\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "000111222",
+                  "offset": 30
+                }
+              ],
+              "location": "TechfiosStepDefinition.user_enters_account_number_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 368053800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters Contact as \"Mark Doe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mark Doe",
+                  "offset": 24
+                }
+              ],
+              "location": "TechfiosStepDefinition.user_enters_contact_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 343536800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters Phone as \"817252\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "817252",
+                  "offset": 22
+                }
+              ],
+              "location": "TechfiosStepDefinition.user_enters_phone_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 282794500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters Internet Banking URL as\"bankurl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bankurl",
+                  "offset": 36
+                }
+              ],
+              "location": "TechfiosStepDefinition.user_enters_internet_banking_url_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1601453400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "TechfiosStepDefinition.user_clicks_on_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should be able to validate account created successfully",
+            "match": {
+              "location": "TechfiosStepDefinition.user_should_be_able_to_validate_account_created_successfully()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 7,
-            "name": "@Scenario1"
+            "line": 4,
+            "name": "@Scenario3"
+          },
+          {
+            "line": 4,
+            "name": "@Smoke"
           }
         ]
       }
     ],
-    "name": "Techfios login functionality Validation",
+    "name": "Techfios Techfios Bank \u0026 Cash Functionality Validality",
     "description": "",
-    "id": "techfios-login-functionality-validation",
+    "id": "techfios-techfios-bank-\u0026-cash-functionality-validality",
     "keyword": "Feature",
-    "uri": "features/TechfiosLogin.feature",
+    "uri": "src/test/java/features/TechfiosBankAndCash.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@LoginFeature"
+        "name": "@AddContactFeature"
       },
       {
         "line": 1,
-        "name": "@Test"
+        "name": "@Test2"
       }
     ]
   }
